@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OKSTUDIO — Content Studio for Gaming UA</title>
+<meta name="description" content="OKSTUDIO runs a multilingual (JP·EN·KR) short-form channel lineup turning military-history storytelling into player acquisition for game publishers.">
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --line:#2d333b; --txt:#e6edf3; --sub:#9aa4b2;
+    --accent:#f2b535; --accent2:#4f9cf9;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR","Hiragino Sans",sans-serif;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+  .logo{font-weight:800;letter-spacing:.14em;font-size:18px}
+  .logo span{color:var(--accent)}
+  nav a.cta{color:var(--txt);text-decoration:none;border:1px solid var(--line);padding:8px 16px;border-radius:8px;font-size:14px}
+  nav a.cta:hover{border-color:var(--accent);color:var(--accent)}
+  .hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+  .hero h1{font-size:clamp(30px,5vw,52px);font-weight:800;line-height:1.15;letter-spacing:-.01em}
+  .hero h1 em{font-style:normal;color:var(--accent)}
+  .hero p.lead{margin-top:20px;font-size:19px;color:var(--sub);max-width:640px}
+  .hero .badges{margin-top:28px;display:flex;gap:10px;flex-wrap:wrap}
+  .badge{font-size:13px;color:var(--txt);background:var(--panel);border:1px solid var(--line);padding:6px 12px;border-radius:99px}
+  h2{font-size:26px;margin:64px 0 8px;letter-spacing:-.01em}
+  .sub{color:var(--sub);margin-bottom:28px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px}
+  .card h3{font-size:17px;margin-bottom:8px}
+  .card p{font-size:14.5px;color:var(--sub)}
+  .card .tag{display:inline-block;font-size:12px;color:var(--accent2);margin-bottom:10px;letter-spacing:.08em;font-weight:700}
+  .lang{font-weight:800;font-size:22px;color:var(--accent);margin-bottom:6px;letter-spacing:.06em}
+  .contact{margin:72px 0;padding:36px;background:linear-gradient(135deg,#1a2030,#161b22);border:1px solid var(--line);border-radius:16px}
+  .contact h2{margin:0 0 8px}
+  .contact a{color:var(--accent);font-size:18px;text-decoration:none;font-weight:700}
+  footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--sub);font-size:13px}
+  footer .ko{font-family:"Noto Sans KR",sans-serif}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="logo">OK<span>STUDIO</span></div>
+    <a class="cta" href="#contact">Partner with us</a>
+  </nav>
+
+  <section class="hero">
+    <h1>We turn military-history<br>storytelling into <em>player acquisition</em>.</h1>
+    <p class="lead">OKSTUDIO is a content studio building a multilingual short-form channel lineup. We connect high-intent audiences — history, naval and military enthusiasts — with the games they were born to play.</p>
+    <div class="badges">
+      <span class="badge">🇯🇵 Japanese</span>
+      <span class="badge">🇺🇸 English</span>
+      <span class="badge">🇰🇷 Korean</span>
+      <span class="badge">Short-form first</span>
+      <span class="badge">CPA partnerships</span>
+    </div>
+  </section>
+
+  <h2>What we do</h2>
+  <p class="sub">One production pipeline, three language markets.</p>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">PRODUCTION</span>
+      <h3>Short-form content engine</h3>
+      <p>Naval &amp; military history series produced in daily cadence — scripted, localized, and cross-published to YouTube Shorts, TikTok and Reels from a single pipeline.</p>
+    </div>
+    <div class="card">
+      <span class="tag">CHANNELS</span>
+      <h3>Multilingual channel lineup</h3>
+      <p>Dedicated channels per language market. Each channel is a funnel: topical content in, publisher tracking links out, measured per platform.</p>
+    </div>
+    <div class="card">
+      <span class="tag">PERFORMANCE</span>
+      <h3>Publisher partnerships</h3>
+      <p>We work with game publishers on CPA-based player acquisition. Organic traffic only — transparent reporting, per-platform subIDs, geo-routed landing infrastructure.</p>
+    </div>
+  </div>
+
+  <h2>Channel lineup</h2>
+  <p class="sub">First channels in launch preparation.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="lang">JP</div>
+      <h3>Naval &amp; military history shorts</h3>
+      <p>戦艦・海戦・ミリタリー史 series for the Japanese audience — the strongest culture fit for naval-warfare titles.</p>
+    </div>
+    <div class="card">
+      <div class="lang">EN</div>
+      <h3>Military history, worldwide</h3>
+      <p>The same proven formats, produced for US/CA/UK audiences with global reach.</p>
+    </div>
+    <div class="card">
+      <div class="lang">KR</div>
+      <h3>Korean audience channel</h3>
+      <p>Established Korean-market channel joining the lineup as a third funnel.</p>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Partner with OKSTUDIO</h2>
+    <p class="sub" style="margin-bottom:16px">Game publishers &amp; affiliate programs — let's talk player acquisition.</p>
+    <!-- TODO: 도메인 등록 후 이메일 교체 (예: hello@okstudio.tv) -->
+    <a href="mailto:hello@okstudio.tv">hello@okstudio.tv</a>
+  </div>
+
+  <footer>
+    <div class="ko">OKSTUDIO · 사업자등록번호 207-81-57627 · 콘텐츠 스튜디오</div>
+    <div style="margin-top:6px">© 2026 OKSTUDIO. All rights reserved.</div>
+  </footer>
+</div>
+</body>
+</html>
